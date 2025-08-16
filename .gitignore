@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raj Web — Print 1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Raj Web</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="print1.html" aria-current="page">Print 1</a>
+      <a href="print2.html">Print 2</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="center">Person Details</h2>
+    <section class="detail-card">
+      <ul>
+        <li><strong>Name:</strong> Rajkumar</li>
+        <li><strong>Age:</strong> 19</li>
+        <li><strong>Father's Name:</strong> Selvaraj</li>
+        <li><strong>Mother's Name:</strong> Manimegalai</li>
+        <li><strong>Phone:</strong> 9894228083</li>
+      </ul>
+      <button onclick="window.print()" class="print-btn">Print this page</button>
+    </section>
+  </main><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Raj Web — Print 2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Raj Web</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="print1.html">Print 1</a>
+      <a href="print2.html" aria-current="page">Print 2</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="center">Receipt & Contact</h2>
+    <section class="detail-card">
+      <ul>
+        <li><strong>Name:</strong> Rajkumar</li>
+        <li><strong>Receipt No:</strong> 23cas291</li>
+        <li><strong>Batch:</strong> 202</li>
+        <li><strong>Phone:</strong> 9894228083</li>
+      </ul>
+      <button onclick="window.print()" class="print-btn">Print this page</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Rajkumar</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Rajkumar</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
